@@ -14,6 +14,7 @@ return [
     */
 
     'name' => env('APP_NAME', 'Laravel'),
+    'gst_percentage' => env('GST_PERSONTAGE', 18),
 
     /*
     |--------------------------------------------------------------------------

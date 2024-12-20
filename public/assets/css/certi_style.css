@@ -1,0 +1,25 @@
+@media print {
+    .invoice-header .text-end p {
+        font-size: 12px !important;
+    }
+    .table tr td{
+        font-size: 12px !important;
+        padding: 3px !important;
+
+    }
+    .table tr th{
+        font-size: 13px !important;
+        padding: 3px !important;
+    }
+    .invoice-main span{
+        font-size: 12px !important;
+    }
+    .invoice-main p{
+        font-size: 12px !important;
+        margin-bottom: 0px !important;
+    }
+    .invoice-footer{
+        position: absolute;
+        bottom: 0px;
+    }
+}
