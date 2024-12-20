@@ -17,7 +17,8 @@ return new class extends Migration
             $table->string('model');
             $table->text('description')->nullable();
             $table->decimal('price', 10, 2);
-            $table->foreignUuid('category_id')->constrained('categories')->onDelete('cascade');
+            // $table->foreignUuid('category_id')->constrained('categories')->onDelete('cascade');
+            $table->foreignUuid('category_id');
             $table->enum('status', ['active', 'inactive'])->default('active');
             $table->softDeletes();
             $table->timestamps();
